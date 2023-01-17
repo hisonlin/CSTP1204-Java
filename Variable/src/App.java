@@ -33,5 +33,83 @@ public class App {
         short num4 = (short) num3;
 
         System.out.println(num4);
+
+        //Arithmetic Operations
+        //+
+        int number1 = 20;
+        int number2 =40;
+        int total = number1 + number2;
+
+        System.out.println(total);
+
+        //-
+        int subtractedValue = number2 - number1;
+        System.out.println(subtractedValue);
+
+        // /
+        int divideValue = number2/number1;
+        System.out.println(divideValue);
+
+        // *
+        int multipliedValue = number2*number1;
+        System.out.println(multipliedValue);
+
+        // %
+        int remainder = number2%number1;
+        System.out.println(remainder);
+
+        // ++
+        number1++;
+        System.out.println(number1);
+
+        // --
+        number2--;
+        System.out.println(number2);
+
+        //Asignment Operations
+
+        int a = 4;
+        a += 10; // a = a + 10;
+        a -= 10; // a = a - 10;
+        a /= 10; // a = a / 10;
+        a *= 10; // a = a * 10;
+        a %= 10; // a = a % 10;
+
+        //Logical Operatiors
+        int danielAge = 25;
+        if(danielAge > 18 && danielAge <60){
+            System.out.println("You are not eligible for Retirement Funds!");
+        }
+
+        //&& and
+        int n1 = 10;
+        int n2 = 20;
+        if(n1 > 5 && n2 > 15){
+            System.out.println("Both Conditions satisfy!");
+        }
+        else{
+            System.out.println("Something Wrong!");
+        }
+
+        //|| or
+        int hisonAge = 25;
+        if(hisonAge < 18 || hisonAge < 60){
+            System.out.println("I went in if");
+        }
+        else{
+            System.out.println("I went in else");
+        }
+
+        //Ternary Operators
+        //condition? Expression 1 (If) : Expression 2 (else)
+
+        int marks = 65;
+        String output = marks == 90 ? "I rocked!" : "I am shocked!";
+
+        System.out.println(output);
+
+        String output1 = marks > 60 && marks <= 70 ? "You got a C" : marks > 70 && marks <= 80 ? "You got a B": "You are fail";
+
+        System.out.println(output1);
     }
 }
