@@ -2,7 +2,7 @@ package Employee;
 
 import java.util.UUID;
 
-public class Employee {
+public class Student {
 
     private String name;
     private String email;
