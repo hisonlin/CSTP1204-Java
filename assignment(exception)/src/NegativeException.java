@@ -7,6 +7,6 @@ public class NegativeException extends Exception {
     }
 
     public String getMessage() {
-        return "Hey Man, this is your custom exception message :" + message;
+        return message;
     }
 }

@@ -13,7 +13,7 @@ public class App {
             System.out.println("The factorial of your number is " + result);
 
         }catch(Exception e){
-            System.out.println("Please enter a whole number.");
+            System.out.println(e.getMessage());
         }
 
     }

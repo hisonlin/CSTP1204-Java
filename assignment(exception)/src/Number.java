@@ -15,9 +15,10 @@ public class Number {
 
     public int factorial(int num) throws NegativeException{
         if (num < 0){
-            throw new NegativeException("Negative Number");
+            throw new NegativeException("Negative Number is not allowed! Please enter a whole number.");
 
         }
+        
         int result = 1;
         for (int i = 1; i <= num; i++) {
             result *= i;
